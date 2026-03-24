@@ -3,9 +3,9 @@ const app = express();
 
 app.get('/student-details', (req, res) => {
     res.json({
-        name: "Your Name",
-        roll: "Your Roll No",
-        register: "Your Register No"
+        name: "saiteja",
+        roll: "2023BCS0211",
+        register: "2023BCS0211",
     });
 });
 

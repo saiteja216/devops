@@ -4,11 +4,11 @@
     <title>Student Details</title>
 </head>
 <body>
-    <h1>Student Info</h1>
+    <h1>student info</h1>
     <p id="data"></p>
 
     <script>
-        fetch("http://localhost:3000/student-details")
+        fetch("http://localhost:3001/student-details")
         .then(res => res.json())
         .then(data => {
             document.getElementById("data").innerHTML =
